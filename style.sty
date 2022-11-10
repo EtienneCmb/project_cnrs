@@ -1,0 +1,184 @@
+\NeedsTeXFormat{LaTeX2e}
+
+\ProvidesPackage{style}[2007/09/19 Extension personnelle, V1.0]
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{booktabs}
+\usepackage{tabu}
+\usepackage[T1]{fontenc}
+\usepackage[default]{raleway}
+
+\usepackage{indentfirst}
+
+% bibliography
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\def\bibfont{\footnotesize}
+\setlength{\bibsep}{0pt}
+\usepackage{multicol}
+
+% text spacing
+\usepackage{setspace}
+\doublespacing
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm]{geometry}
+\setlength{\columnsep}{20pt}
+
+% headings
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{level2} Etienne Combrisson}
+\rfoot{\thepage}
+\lfoot{\footnotesize \textit{\hyperlink{contents}{Back to table of content}}}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{blindtext}
+\usepackage{wrapfig}
+
+\newcommand{\fig}[1]{(\textit{Fig \ref{#1}})}
+
+% caption settings
+\usepackage{caption}
+\captionsetup{justification=raggedright,singlelinecheck=false}
+\usepackage[font=small,labelfont=bf]{caption}
+% \usepackage[hidelinks]{hyperref}
+
+
+% define colors
+\usepackage{xcolor}
+\definecolor{level0}{HTML}{333333}
+\definecolor{level1}{HTML}{444444}
+\definecolor{level2}{HTML}{555555}
+\definecolor{level3}{HTML}{666666}
+\definecolor{bluenrn}{RGB}{50,126,177}
+
+
+
+% section styles
+% \newcommand{\section}[1]{\section{\color{level1} #1} }
+\usepackage{titlesec}
+% \titleformat*{\section}{\normalfont\large\bfseries\color{level1}}[{\titlerule[0.8pt]}]
+\titleformat{\section}{\normalfont\LARGE\bfseries\color{level1}}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+\titleformat*{\subsection}{\normalfont\Large\bfseries\color{level2}}
+\titleformat*{\subsubsection}{\normalfont\large\bfseries\color{level3}}
+
+% \normalsize
+
+\usepackage[many]{tcolorbox}
+% \definecolor{yellowbox}{HTML}{FFBA03}
+% \definecolor{greenbox}{HTML}{2ECC71}
+% \definecolor{redbox}{HTML}{E24A33}
+\definecolor{bluebox}{HTML}{348ABD}
+
+\usepackage[colorlinks=true,
+            linkcolor=bluebox,
+            urlcolor=bluebox,
+            citecolor=bluebox,
+            backref=page]{hyperref}
+
+% \newtcolorbox{bigpic}{colback=greenbox!5!white,colframe=greenbox!75!black}
+% \newtcolorbox{oquest}{colback=redbox!5!white,colframe=redbox!75!black}
+\newtcolorbox{highlights}[1]{
+    % colback=white,
+    % colframe=bluebox!100!black,
+    grow to left by=-2cm,
+    grow to right by=-2cm,
+    title={#1},
+    fonttitle=\sffamily\bfseries\large,
+    boxsep=4pt,
+    fontlower=\small
+}
+% \newtcolorbox{method}{colback=bluebox!5!white,colframe=bluebox!75!black}
+
+
+
+\newcommand{\newtitle}[2]{
+\begin{titlepage}
+\lhead{\color{level0} \textbf{Research project}}
+    \centering
+    \vspace*{4cm}
+    {\Huge\bfseries #1\par}
+    \vspace{1cm}
+    {\Large\bfseries \color{level2} Etienne Combrisson\par}
+    \vfill
+
+    \begin{center}
+        {\LARGE\bfseries \color{level0} #2\par}
+    \end{center}
+\end{titlepage}
+
+% add header
+\lhead{\color{level1} \textbf{#2}}
+
+% add table of content
+\newpage
+\phantomsection
+\hypertarget{contents}{}
+\tableofcontents
+\newpage
+}
+
+
+\renewcommand{\bibpreamble}{\begin{multicols}{2}}
+\renewcommand{\bibpostamble}{\end{multicols}}
+% \setlength{\columnseprule}{0.01pt}
+\renewcommand{\columnseprulecolor}{\color[rgb]{0.9,0.9,0.9}}
+\renewcommand{\bibfont}{\scriptsize}
+\setlength{\bibsep}{3pt}
+
+% _________________________________ ACRONYMS _________________________________
+\usepackage{acro}
+\acsetup{
+    make-links = true,
+    list/heading=section*
+}
+
+\DeclareAcronym{meg}{
+  short=MEG,
+  long=Magnetoencephalography,
+}
+\DeclareAcronym{eeg}{
+  short=EEG,
+  long=Electroencephalography,
+}
+\DeclareAcronym{bci}{
+  short=BCI,
+  long=Brain computer interface,
+}
+\DeclareAcronym{pac}{
+  short=PAC,
+  long=Phase-amplitude coupling,
+}
+\DeclareAcronym{ieeg}{
+  short=iEEG,
+  long=Intracerebral electroencephalography,
+}
+\DeclareAcronym{fc}{
+  short=FC,
+  long=Functional connectivity,
+}
+\DeclareAcronym{it}{
+  short=IT,
+  long=Information-theory,
+}
+\DeclareAcronym{ml}{
+  short=ML,
+  long=Machine-learning,
+}
+\DeclareAcronym{cfc}{
+  short=CFC,
+  long=Cross-frequency coupling,
+}
+\DeclareAcronym{gcmi}{
+  short=GCMI,
+  long=Gaussian Copula Mutual Information,
+}
