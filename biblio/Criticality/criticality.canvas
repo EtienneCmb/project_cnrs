@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"7405e39a3e2cde2d","type":"group","x":-640,"y":-120,"width":2200,"height":1160,"color":"4","label":"PAPERS"},
+		{"id":"4bee0cc4cf206c45","type":"group","x":-640,"y":-960,"width":2200,"height":673,"color":"2","label":"REVIEWS"},
+		{"id":"06170aef7d7ebf58","type":"group","x":1640,"y":-960,"width":1440,"height":680,"color":"5","label":"TALKS & CONFS"},
+		{"id":"18eb37d4fec2aaa8","type":"group","x":1640,"y":-120,"width":1440,"height":560,"color":"1","label":"VIDEOS"},
+		{"id":"920daa32f8743064","type":"file","file":"Research/Biblio/Criticality/beggs_book.md","x":-600,"y":-913,"width":480,"height":593},
+		{"id":"8b4fb9bd19ed9bbe","type":"link","url":"https://www.youtube.com/watch?v=vwLb3XlPCB4&t=8s","x":1700,"y":6,"width":640,"height":360},
+		{"id":"f07f1556c8bbb7d1","type":"link","url":"https://www.youtube.com/watch?v=hjGFp7lMi9A","x":2380,"y":6,"width":640,"height":360},
+		{"id":"af3f20516c749421","type":"link","url":"https://braincriticality.org/","x":1944,"y":-880,"width":793,"height":560},
+		{"id":"8222064400384b20","type":"file","file":"Research/Biblio/Criticality/tagliazucchi_frontiers_2012.md","x":-600,"y":-34,"width":400,"height":474},
+		{"id":"11a7c9105107e681","x":-160,"y":-34,"width":400,"height":474,"type":"file","file":"Research/Biblio/Criticality/jones_elife_2023.md"}
+	],
+	"edges":[]
+}

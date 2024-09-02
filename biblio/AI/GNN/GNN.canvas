@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"1f2e4fe1135d0f55","type":"group","x":-1040,"y":-920,"width":4040,"height":2040,"color":"1","label":"GNN"},
+		{"id":"1f59a55196e574a0","type":"group","x":-1000,"y":-820,"width":1440,"height":760,"color":"4","label":"REVIEWS"},
+		{"id":"c245b17d1cf3a297","type":"group","x":0,"y":80,"width":1080,"height":1000,"color":"6","label":"INTERPRETABILITY"},
+		{"id":"ca627860404ca45b","type":"group","x":-1000,"y":80,"width":960,"height":1000,"color":"3","label":"HOI"},
+		{"id":"a4bb368b6068fb7b","type":"group","x":1920,"y":100,"width":1000,"height":940,"color":"5","label":"Toolboxes"},
+		{"id":"18a3a0f26e34701c","type":"group","x":1920,"y":-820,"width":1000,"height":760,"color":"2","label":"VIDEOS"},
+		{"id":"94feeb6db684c4fc","type":"file","file":"Research/Biblio/AI/GNN/li_gnn_interpret_2019.md","x":40,"y":100,"width":400,"height":360},
+		{"id":"06aabfc4d4ae1347","type":"file","file":"Research/Biblio/AI/GNN/li_gnn_interpret_2021.md","x":520,"y":100,"width":400,"height":360},
+		{"id":"aacc54390990c222","type":"file","file":"Research/Biblio/AI/GNN/chami_gnn_2022.md","x":-980,"y":-800,"width":420,"height":700},
+		{"id":"ce6e5293054c6b04","type":"file","file":"Research/Biblio/AI/GNN/banka_gnn_hoi_2020.md","x":-960,"y":135,"width":400,"height":400},
+		{"id":"ad99f8d84241e535","type":"file","file":"Research/Biblio/AI/GNN/bessadok_ieee_2022.md","x":-520,"y":-800,"width":440,"height":700},
+		{"id":"1119ae679760ee68","type":"file","file":"Research/Biblio/AI/GNN/lostar_gnn_hoi_arxiv_2020.md","x":-960,"y":600,"width":400,"height":400},
+		{"id":"56c1a3de9edd5c06","type":"link","url":"https://www.youtube.com/watch?v=3OQdq8gXbFE&t=5959s","x":2000,"y":-760,"width":480,"height":280},
+		{"id":"8eff847f9d8ecd7d","type":"link","url":"https://www.youtube.com/watch?v=fOctJB4kVlM","x":2000,"y":-400,"width":480,"height":290},
+		{"id":"8f40c264d4311a83","type":"file","file":"Research/Biblio/AI/GNN/zhang_gnn_hoi_arxiv_2019.md","x":-520,"y":135,"width":400,"height":400},
+		{"id":"6cf0e89f0ef1beae","type":"link","url":"https://pyg.org/","x":1940,"y":140,"width":400,"height":400},
+		{"id":"fc45d1a5bbf0d87c","type":"link","url":"https://github.com/xxlya/BrainGNN_Pytorch","x":1940,"y":600,"width":400,"height":400},
+		{"id":"cd9421a31d049651","type":"link","url":"https://github.com/google-deepmind/jraph","x":2400,"y":140,"width":400,"height":400},
+		{"id":"3592b8a1823603aa","type":"file","file":"Research/Biblio/AI/GNN/deepfindr_youtube_video.md","x":2520,"y":-400,"width":380,"height":290},
+		{"id":"8571b3dd2d92fdd3","x":-40,"y":-800,"width":400,"height":700,"type":"file","file":"Research/Biblio/AI/GNN/zhou_gnn_review_ai_open.md"},
+		{"id":"ccebc4985b24acb4","x":-520,"y":600,"width":400,"height":400,"type":"file","file":"Research/Biblio/AI/GNN/feng_gnn_hoi_2019.md"}
+	],
+	"edges":[
+		{"id":"cbd07f3aa6e2e2c6","fromNode":"06aabfc4d4ae1347","fromSide":"right","toNode":"fc45d1a5bbf0d87c","toSide":"left","label":"BrainGNN\nToolbox"},
+		{"id":"6f7cd065e2cc4661","fromNode":"94feeb6db684c4fc","fromSide":"right","toNode":"06aabfc4d4ae1347","toSide":"left","fromEnd":"arrow"},
+		{"id":"c3732e9582be6508","fromNode":"3592b8a1823603aa","fromSide":"left","toNode":"8eff847f9d8ecd7d","toSide":"right","fromEnd":"arrow"}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"fee64129067bf2e6","x":-141,"y":-300,"width":241,"height":60,"type":"text","text":"## Reviews"},
+		{"id":"1f0462b1220d089e","type":"text","text":"## Papers","x":-120,"y":140,"width":201,"height":60},
+		{"id":"40cf5814968ebff0","type":"text","text":"## Toolboxes","x":240,"y":-80,"width":280,"height":60},
+		{"id":"58acc2f4d24e4517","x":-460,"y":-740,"width":520,"height":340,"type":"file","file":"Research/Biblio/Network/HOI/luppi_trends_2024.md"},
+		{"id":"e3305043a7e8505b","x":-500,"y":320,"width":400,"height":400,"type":"file","file":"Research/Biblio/Population coding/Correlations/nigam_2019_neuron.md"},
+		{"id":"1c8e51032d66dc32","x":280,"y":600,"width":400,"height":400,"type":"file","file":"Research/Biblio/Population coding/Correlations/schneidman_2003_jon.md"},
+		{"id":"68d60e2542fa07bd","x":-189,"y":-140,"width":340,"height":180,"type":"text","text":"# HOI\n# Redundancy / Synergy"}
+	],
+	"edges":[
+		{"id":"06259d674939131c","fromNode":"68d60e2542fa07bd","fromSide":"top","toNode":"fee64129067bf2e6","toSide":"bottom"},
+		{"id":"36c7b960389f4567","fromNode":"68d60e2542fa07bd","fromSide":"bottom","toNode":"1f0462b1220d089e","toSide":"top"},
+		{"id":"0e8c9ba9daecbe47","fromNode":"68d60e2542fa07bd","fromSide":"right","toNode":"40cf5814968ebff0","toSide":"left"}
+	]
+}

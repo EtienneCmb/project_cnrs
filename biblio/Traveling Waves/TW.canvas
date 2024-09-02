@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"6c1ee6d1ba0e5af8","type":"text","text":"# Traveling waves","x":-120,"y":-520,"width":440,"height":80},
+		{"id":"f19853db300b8f2c","type":"text","text":"## Task-related TW\n\n#TW #TaskRelated","x":-600,"y":-220,"width":380,"height":120},
+		{"id":"622ed84decaa7c3c","type":"file","file":"Research/Biblio/Traveling Waves/zabeh_natcomm_2023.md","x":-1020,"y":80,"width":610,"height":500},
+		{"id":"82ec274b7fcd534c","type":"file","file":"Research/Biblio/Traveling Waves/xu_nathumbeh_2023.md","x":-340,"y":80,"width":600,"height":500},
+		{"id":"9b82852505c52315","type":"text","text":"## Reviews","x":560,"y":-220,"width":320,"height":120},
+		{"id":"2361fd7885d0b6db","type":"file","file":"Research/Biblio/Traveling Waves/muller_natrevneuro_2018.md","x":480,"y":80,"width":640,"height":500},
+		{"id":"ab454dcfa64672fa","type":"text","text":"## Toolboxes","x":-60,"y":-960,"width":320,"height":120},
+		{"id":"2265fb9bd6d22b60","x":-130,"y":-1600,"width":460,"height":400,"type":"file","file":"Research/Biblio/Traveling Waves/gutzen_cellreport_2024.md"}
+	],
+	"edges":[
+		{"id":"7ced0ddc2cdc891e","fromNode":"f19853db300b8f2c","fromSide":"bottom","toNode":"622ed84decaa7c3c","toSide":"top"},
+		{"id":"3426d1719635eb83","fromNode":"6c1ee6d1ba0e5af8","fromSide":"bottom","toNode":"f19853db300b8f2c","toSide":"top"},
+		{"id":"6bffbe5da294fb47","fromNode":"f19853db300b8f2c","fromSide":"bottom","toNode":"82ec274b7fcd534c","toSide":"top"},
+		{"id":"80f2c0e8e1d7ce4a","fromNode":"6c1ee6d1ba0e5af8","fromSide":"bottom","toNode":"9b82852505c52315","toSide":"top"},
+		{"id":"7aa3da4a71c6eca2","fromNode":"9b82852505c52315","fromSide":"bottom","toNode":"2361fd7885d0b6db","toSide":"top"},
+		{"id":"0f5e47fac26d38fd","fromNode":"6c1ee6d1ba0e5af8","fromSide":"top","toNode":"ab454dcfa64672fa","toSide":"bottom"},
+		{"id":"dc42bb4995198b99","fromNode":"ab454dcfa64672fa","fromSide":"top","toNode":"2265fb9bd6d22b60","toSide":"bottom"}
+	]
+}
